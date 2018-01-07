@@ -15,10 +15,10 @@ class Route {
     this.endingLocation = endingLocation;
   }
 
-  let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 
+  let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue',
   'Park', 'Madison Avenue', '5th Avenue']
 
   blocksTravelled() {
-
+    const verticalDistance = Math.abs(this.beginningLocation.vertical - this.endingLocation.vertical);
   }
 }
