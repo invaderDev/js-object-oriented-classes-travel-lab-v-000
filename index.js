@@ -28,6 +28,6 @@ class Route {
   estimatedTime() {
     let peak;
 
-    peak ? blocksTravelled() / 2 : blocksTravelled() / 3;
+    peak ? this.blocksTravelled() / 2 : this.blocksTravelled() / 3;
   }
 }
