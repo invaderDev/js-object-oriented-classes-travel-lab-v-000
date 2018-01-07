@@ -26,6 +26,8 @@ class Route {
   }
 
   estimatedTime() {
-    
+    let peak;
+
+    peak ? blocksTravelled() / 2 : blocksTravelled() / 3;
   }
 }
